@@ -1,3 +1,4 @@
+package Week2;
 public class variableClass  {
     /*Instance variable
      * Needs object to access
@@ -45,7 +46,7 @@ public class variableClass  {
         /* Need object to access instance variable */
         System.out.println(variableObject.instanceVariable);
         /*Can access static variable with Class only/ no object needed */
-        System.out,println(variableClass.staticVariable);
+        System.out.println(variableClass.staticVariable);
 
         /* Type casting */
         int intVariableConvert = 10;
@@ -53,5 +54,21 @@ public class variableClass  {
         /* Explicit casting */
         double doubleVariableConvert = 100.29;
         int doubleVariableConvertToInt = (int) doubleVariableConvert;
+
+        //    Printing alll the assigned variables
+        System.out.println(byteVariable);
+        System.out.println(shortVariable);
+        System.out.println(intVariable1);
+        System.out.println(intVariable2);
+        System.out.println(longVariable1);
+        System.out.println(longvariable2);
+        System.out.println(floatVariable);
+        System.out.println(doubleVariable);
+        System.out.println(charVariable);
+        System.out.println(booleanVariable);
+        System.out.println(stringVariable);
+        System.out.println(stringVariable2);
+        System.out.println(intVariableConvertToVariable);
+        System.out.println(doubleVariableConvertToInt);
     }
 }
