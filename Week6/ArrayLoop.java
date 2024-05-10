@@ -23,6 +23,23 @@ public class ArrayLoop {
             counter++;
         }
 
+        int []myArray1 = new int[5];
+            int []myArray2 = new int[5];
+            int i=0;
+            while ( i<5) {
+                myArray1[i] = 50 - i*10;
+                i++;
+
+            }
+            int j=0;
+            while (j<5) {
+                myArray2[j] = myArray1[4-j];
+                j++;
+                }
+                for (int k=0; k<5; k++) {
+                    System.out.println(myArray2[k]);
+                    }
+
     }
     
 }
